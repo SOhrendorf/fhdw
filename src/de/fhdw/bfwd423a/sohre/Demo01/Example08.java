@@ -6,7 +6,7 @@ public class Example08 {
     }
 
     static double factorial(double number){
-        if(number >= 0 & (number %1 == 0)){
+        if(number >= 0 && (number %1 == 0)){
             int result;
             result = 1;
             for (int i = 1; i < number; i++){
