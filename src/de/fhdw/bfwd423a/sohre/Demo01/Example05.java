@@ -7,7 +7,7 @@ public class Example05 {
 
     static void square(int size){
         if(size == 1){
-            System.out.print("*");
+            printStars(1);
             return;
         }
         printFrame(size);
