@@ -2,11 +2,20 @@ package de.fhdw.bfwd423a.sohre.Demo01;
 
 public class Example08 {
     public static void main(String[] args) {
-        System.out.println(factorial( 6.6));
+
+        System.out.print(Integer.toString(factorial( -5.0)));
+        char c = '⮴';
+        System.out.print("\n" + c);
+        System.out.print(" Das ist ein String");
+        System.out.print("(⌐■_■)");
     }
 
-    static double factorial(double number){
-        if(number >= 0 && (number %1 == 0)){
+    static int factorial(double number){
+        return factorial((int) number);
+    }
+
+    static int factorial(int number){
+        if(number >= 0 && (true)){
             int result;
             result = 1;
             for (int i = 1; i < number; i++){
