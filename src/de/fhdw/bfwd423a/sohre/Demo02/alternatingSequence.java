@@ -1,4 +1,4 @@
-package de.fhdw.bfwd423.sohre.Demo02;
+package de.fhdw.bfwd423a.sohre.Demo02;
 
 public class alternatingSequence {
     public static void main(String[] args) {
