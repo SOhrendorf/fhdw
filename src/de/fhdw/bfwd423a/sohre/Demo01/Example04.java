@@ -3,7 +3,7 @@ package de.fhdw.bfwd423a.sohre.Demo01;
 public class Example04 {
 
     public static void main(String[] args) {
-        printTree(1);
+        printTree(4);
     }
 
     static void printTree(int height){
