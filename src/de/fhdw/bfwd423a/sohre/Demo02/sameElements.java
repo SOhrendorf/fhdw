@@ -1,5 +1,5 @@
 package de.fhdw.bfwd423a.sohre.Demo02;
-
+//es funktioniert, ist aber nicht Idiotensicher! Besser wäre gewesen, es erst zu sortieren.
 public class sameElements {
     public static void main(String[] args) {
         int[] elementA = {1,2,3};
