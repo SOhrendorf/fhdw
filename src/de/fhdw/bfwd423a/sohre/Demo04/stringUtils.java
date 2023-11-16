@@ -16,12 +16,17 @@ public class stringUtils {
 
     public static int numberOfVocals (String string){
         int result;
-        String[] vocals;
 
         result = 0;
-        vocals = new String[] {"a","e","i","o","u"};
-        for (String e:vocals) {
-            if (string.contains(e)) {
+
+        for (int i = 0; i < string.length(); i++) {
+            char charAtPosI;
+
+            string = string.toLowerCase();
+            charAtPosI = string.charAt(i);
+
+
+            if (charAtPosI == 'a' || charAtPosI == 'e' || charAtPosI == 'i' || charAtPosI == 'o' || charAtPosI == 'u') {
                 result++;
             }
         }

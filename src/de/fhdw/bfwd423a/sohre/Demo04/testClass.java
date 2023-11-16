@@ -6,7 +6,7 @@ public class testClass {
         String[] string2;
         string2 = new String[] {"Wir", "lieben", "Programmieren"};
 
-        string1 = "Wiri";
+        string1 = "Wir";
         //System.out.println(stringUtils.sIna(string1, string2));
         System.out.println(stringUtils.numberOfVocals(string1));
     }
