@@ -32,4 +32,30 @@ public class stringUtils {
         }
         return result;
     }
+
+    public static boolean palindrom(String world){
+        boolean palindorm;
+        char[] charArray = world.toCharArray();
+
+        palindorm = true;
+
+        for(int i = 0; i < charArray.length/2;i++){
+            if(charArray[i] != charArray[charArray.length - i-1]){
+                palindorm = false;
+                break;
+            }
+        }
+        return palindorm;
+    }
+
+    public static String repeatString(String word, int n){
+        String result;
+
+        result = word;
+
+        for (int i = 1; i < n ; i++){
+            result = result.concat(word);
+        }
+        return result;
+    }
 }
