@@ -7,8 +7,10 @@ public class BigClass {
         int[] intArray;
         int[] intArray2;
         int[] intArray3;
+        double simon[];
         int e = 5;
 
+        int arrayTest[] = {1,2,3,4};
         intArray = new int[] {1,2,3,4,5,6};
         intArray2 = new int[] {1,2,3,4,5,6,9};
         intArray3 = new int[intArray.length];
