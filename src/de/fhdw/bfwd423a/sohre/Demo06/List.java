@@ -67,4 +67,17 @@ public class List {
         }
         return result;
     }
+
+    int getFirst(){
+        return getNode(0).getContent();
+    }
+
+    void remove(int pos){
+        if(pos == 0){
+            mStartNode = getNode(0).getSuccessor();
+        }
+        else{
+            getNode(pos-1).setSuccessor(getNode(pos+1));
+        }
+    }
 }
