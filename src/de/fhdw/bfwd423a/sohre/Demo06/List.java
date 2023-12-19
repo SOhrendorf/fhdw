@@ -3,7 +3,7 @@ package de.fhdw.bfwd423a.sohre.Demo06;
 public class List {
     ListNode mStartNode;
 
-    void insert(int position, int newValue){
+    public void insert(int position, int newValue){
         ListNode newNode;
 
         assert position >= 0 && position <= size();
@@ -30,7 +30,7 @@ public class List {
         }
     }
 
-    ListNode getNode(int position){
+    public ListNode getNode(int position){
         ListNode Node;
         Node = mStartNode;
         for (int i = 0; i < position; i++){
@@ -39,7 +39,7 @@ public class List {
         return  Node;
     }
 
-    int size(){
+    public int size(){
         int size;
         ListNode currentNode;
 
@@ -72,7 +72,7 @@ public class List {
         return getNode(0).getContent();
     }
 
-    void remove(int pos){
+    public void remove(int pos){
         if(pos == 0){
             mStartNode = getNode(0).getSuccessor();
         }

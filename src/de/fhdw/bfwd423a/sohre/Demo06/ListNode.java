@@ -8,7 +8,7 @@ public class ListNode {
         return mSuccessor;
     }
 
-    int getContent() {
+    public int getContent() {
         return mContent;
     }
 

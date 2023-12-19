@@ -4,19 +4,19 @@ public class Stack {
 
     List mList;
 
-    Stack(){
+    public Stack(){
         mList = new List();
     }
 
-    boolean isEmpty(){
+    public boolean isEmpty(){
         return mList.size() == 0;
     }
 
-    int top(){
+    public int top(){
         return mList.getFirst();
     }
 
-    int pop(){
+    public int pop(){
         int result;
 
         result = top();
@@ -24,7 +24,7 @@ public class Stack {
         return result;
     }
 
-    void push(int newValue){
+    public void push(int newValue){
         mList.insert(0,newValue);
     }
 }
