@@ -10,13 +10,11 @@ public class Exercise03 {
 
     public static int factorial(int n){
 
-        int result = 0;
-        int help = 1;
+        int result = 1;
 
         for(int i = 1; i <= n; i++){
 
-            result = help * i;
-            help = result;
+            result *= i;
         }
 
         return result;
